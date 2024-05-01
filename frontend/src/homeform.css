@@ -1,0 +1,65 @@
+.tictactoe-page {
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* Text color */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dark-theme {
+    width: 300px; /* Adjust the width as needed */
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input,
+.select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333333; /* Dark input background */
+    color: #ffffff; /* Input text color */
+    outline: none; /* Remove default focus outline */
+}
+
+.input:focus,
+.select:focus {
+    outline: 2px solid #4caf50; /* Green focus outline */
+}
+
+.select {
+    appearance: none; /* Remove default select styling */
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50; /* Green button color */
+    color: #ffffff; /* Button text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: None;
+}
+
+.button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}

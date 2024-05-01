@@ -1,0 +1,23 @@
+/* FullPageTicTacToe.css */
+
+.full-page-tictactoe {
+    background-color: #121212; /* Dark background color */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    color: #ffffff; /* Text color */
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.game-container {
+    margin-top: 20px;
+}

@@ -1,0 +1,21 @@
+# Django
+*.pyc
+*.pyo
+__pycache__
+
+# Python env/venv
+env/
+venv/
+
+# React
+/frontend/node_modules
+/frontend/npm-debug.log
+/node_modules
+npm-debug.log
+node_modules
+# Cache folders
+.cache/
+.cache-loader/
+.cached-data/
+.cache/
+

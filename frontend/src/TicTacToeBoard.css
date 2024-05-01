@@ -1,0 +1,27 @@
+/* TicTacToeBoard.css */
+
+.tictactoe-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px); /* Adjust square size as needed */
+    grid-gap: 10px; /* Adjust gap between squares */
+}
+
+.square {
+    width: 100px; /* Adjust square size */
+    height: 100px; /* Adjust square size */
+    background-color: #333333; /* Dark square background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.symbol {
+    font-size: 36px; /* Adjust symbol size */
+    color: #ffffff; /* Symbol color */
+}
+
+.square:hover {
+    background-color: #555555; /* Darker square background color on hover */
+}
